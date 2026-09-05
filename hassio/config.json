@@ -1,10 +1,10 @@
 {
   "name": "PIMA Alarms",
-  "version": "0.7.3.0",
+  "version": "0.7.4.0",
   "slug": "pima",
   "description": "Interface for negotiation with PIMA Hunter Pro alarms.",
-  "url": "https://github.com/deiger/Alarm",
-  "image": "deiger/pima",
+  "url": "https://github.com/ShonP40/Alarm",
+  "image": "ShonP40/pima",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
