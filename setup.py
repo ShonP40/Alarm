@@ -12,7 +12,7 @@ setuptools.setup(
     description='Interface for negotiation with PIMA Hunter Pro alarms.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/deiger/Alarm',
+    url='https://github.com/ShonP40/Alarm',
     author='Dror Eiger',
     author_email='droreiger@gmail.com',
     license='GPL 3.0',
