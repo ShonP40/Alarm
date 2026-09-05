@@ -4,7 +4,6 @@
   "slug": "pima",
   "description": "Interface for negotiation with PIMA Hunter Pro alarms.",
   "url": "https://github.com/ShonP40/Alarm",
-  "image": "shonp40/pima",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
