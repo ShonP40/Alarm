@@ -355,6 +355,8 @@ def mqtt_publish_discovery() -> None:
             device_info,
           'state_topic':
               _mqtt_topics['pub'],
+          'availability_topic':
+            _mqtt_topics['lwt'],
           'payload_on':
               'on',
           'payload_off':
@@ -372,6 +374,8 @@ def mqtt_publish_discovery() -> None:
             device_info,
           'state_topic':
               _mqtt_topics['pub'],
+          'availability_topic':
+            _mqtt_topics['lwt'],
           'payload_on':
               'on',
           'payload_off':
