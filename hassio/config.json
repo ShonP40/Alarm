@@ -1,6 +1,6 @@
 {
   "name": "PIMA Alarm",
-  "version": "0.7.4.3",
+  "version": "0.7.4.4",
   "slug": "pima",
   "description": "Interface for negotiation with PIMA Hunter Pro alarms.",
   "url": "https://github.com/ShonP40/Alarm",
