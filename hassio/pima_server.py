@@ -396,9 +396,9 @@ def mqtt_publish_discovery() -> None:
     'device_class':
       'problem',
     'payload_on':
-      'online',
-    'payload_off':
       'offline',
+    'payload_off':
+      'online',
     'icon':
       'mdi:server'
   }
