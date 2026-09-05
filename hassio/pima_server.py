@@ -356,7 +356,8 @@ def mqtt_publish_discovery() -> None:
           'payload_off':
               'off',
           'value_template':
-              f"{{% if {i} in value_json['open zones'] %}}on{{% else %}}off{{% endif %}}"
+              f"{{% if {i} in value_json['open zones'] %}}on{{% else %}}off{{% endif %}}",
+          'device_class': 'motion'
       }
       alarmed_zones_config = {
           'name':
